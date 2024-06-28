@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "thetips4you/nodeapp"
+    dockerimagename = "bravinwasike/jenkinsnodeapp"
     dockerImage = ""
   }
 
@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/shazforiot/nodeapp_test.git'
+        git 'https://github.com/Bravinsimiyu/nodeapp_test.git'
       }
     }
 
